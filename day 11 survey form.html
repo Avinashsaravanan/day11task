@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">,
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="./survey.css">
+<div class="col-md-8 order-md-1">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">First name*</label>
+            <input type="text" class="form-control" id="firstName" placeholder=" enter your first name"  required>
+            <div class="invalid-feedback">
+              
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="lastName">Last name*</label>
+            <input type="text" class="form-control" id="lastName" placeholder="enter your last name"  required>
+            <div class="invalid-feedback">
+              
+            </div>
+          </div>
+        </div>   
+        <div class="col-md-5 mb-3">
+            <label for="Email"> Email*</label>
+            <input type="text" class="form-control" id="Email"
+            placeholder="enter your Email" required>
+            
+        </div>
+        <div class="col-md5- mb-3">
+            <label for="experience"> Experience*</label>
+         
+            
+            <form>
+  <fieldset id="group1">
+    <input type="radio" value="value1" name="group1">
+    <input type="radio" value="value2" name="group1">
+     <input type="radio" value="value2" name="group1">
+      <input type="radio" value="value2" name="group1">
+       <input type="radio" value="value2" name="group1">
+  </fieldset>
+  </form>
+</div>
+ <div class="col-xl4- mb-3">
+            <label for="how satisfield are you with"> how satisfield are you with*</label>
+            <table>
+<tr>
+    <th></th>
+    <th>(very unsatisfield)</th>
+    <th>(unsatisfield)</th>
+    <th>(neutral) </th>
+    <th>(satisfield)</th>
+     <th> (very satisfield)</th>
+</tr>
+<tr>
+    <td>purchase</td>
+    <td><input class="bar"type="radio" name="row-1" data-col="1"></td>
+    <td><input class="bar" type="radio" name="row-1" data-col="2"></td>
+    <td><input class="bar" type="radio" name="row-1" data-col="3"></td>
+    <td><input class="bar"  type="radio" name="row-1" data-col="3"></td>
+     <td><input class="bar" type="radio" name="row-1" data-col="3"></td>
+</tr>
+<tr>
+    <td>service</td>
+    <td><input class="bar" type="radio" name="row-2" data-col="1"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="2"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+</tr>
+</tr>
+<tr>
+    <td>company overall</td>
+    <td><input class="bar" type="radio"  name="row-3" data-col="1"></td>
+    <td><input class="bar" type="radio" name="row-3" data-col="2"></td>
+    <td><input class="bar" type="radio" name="row-3" data-col="3"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+    <td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+</tr>
+</table>
+<br>
+<br>
+
+<div class="col-md4- mb-3">
+    <label for="how likely are you to"> how likely are you to*</label>
+    <table>
+<tr>
+<th></th>
+<th>very likely <likely></likely></th>
+<th>unlikely</th>
+<th>neutral </th>
+<th>likely</th>
+<th>very likely</th>
+</tr>
+<tr>
+<td>buy from us again</td>
+<td><input class="bar" type="radio" name="row-1" data-col="1"></td>
+<td><input class="bar" type="radio" name="row-1" data-col="2"></td>
+<td><input class="bar" type="radio" name="row-1" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-1" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-1" data-col="3"></td>
+</tr>
+<tr>
+<td>recommend our products to others</td>
+<td><input class="bar" type="radio" name="row-2" data-col="1"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="2"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+</tr>
+</tr>
+<tr>
+<td>recommend our company to others</td>
+<td><input class="bar" type="radio"  name="row-3" data-col="1"></td>
+<td><input class="bar" type="radio" name="row-3" data-col="2"></td>
+<td><input class="bar" type="radio" name="row-3" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+<td><input class="bar" type="radio" name="row-2" data-col="3"></td>
+</tr>
+</table>
+<div>
+    <label for="msg"></label>
+    <p> Additional comments and suggestions</p>
+    <textarea id="msg" name="user_message" rows="5" cols="70" placeholder="Enter Text Here"></textarea>   </div>
+  <div>
+    <div id="submitbutton">
+        <button type="submit" id="submit">Sumbit</button>   </div>
+    
+    </form>
+      </div>

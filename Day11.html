@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+   
+    .grid-container {
+      display: grid;
+      
+      grid-template-columns: 100px 200px 100px;
+      
+      grid-template-rows: 100px 100px 100px;
+      
+      grid-template-columns: repeat(3,100px);
+      
+      gap: 10px 30px;
+     
+      row-gap: 10px;
+      column-gap: 30px;
+
+    }
+    body {
+      background-color: brown;
+    }
+
+    .grid-item {
+      height: 100px;
+      width: 100px;
+      background-color: aqua;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 36px;
+    }
+    .grid-item-2 {
+      height: 30px;
+      width: 100px;
+     background-color: rgb(40, 108, 196);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 36px;
+      
+
+    }
+    .grid-item-3 {
+      height: 40px;
+      width: 100px;
+      margin-left: 220px;
+     
+      
+     
+       background-color: rgb(9, 255, 0);
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      font-size: 36px; }
+
+
+    .grid-item-4{
+      height: 40px;
+      width: 100px;
+      background-color: rgb(9, 255, 0);
+      margin-left: 220px;
+      justify-content: left;
+      align-items: left;
+      font-size: 36px; }
+
+
+      .grid-item-5 {
+        height: 40px;
+      width: 100px;
+      background-color: rgb(9, 255, 0);
+      margin-left: 220px;
+      
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      font-size: 36px;}
+
+      
+      .grid-item-6 {
+        height: 40px;
+      width: 270px;
+      margin-left: 220px;
+      padding: 45px;
+      background-color: rgb(9, 255, 0);
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      font-size: 36px;
+     
+      }
+    h1 {text-align: center;
+    background-color: blueviolet;}
+    
+  </style>
+
+</head>
+
+<body>
+   
+  <h1 > Github</h1>
+  <div class="grid-container">
+  
+    
+    <div class="grid-item" style="height: 400px;"></div>
+    <div class="grid-item-2" style="width: 500px;" ></div>
+    <div class="grid-item-2" style="width: 500px;" ></div>
+  <div class="grid-item-3" style="height: 100px;"  ></div>
+    <div class="grid-item-4" style="height: 100px;"  ></div>
+    <div class="grid-item-5" style="height: 100px;"  ></div>
+    <div class="grid-item-6" style="height: 80px;"  ></div>
+
+    
+  </div>
+</body>
+
+</html>
